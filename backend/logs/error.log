@@ -1,0 +1,10 @@
+11:14:17.152 ERROR Error Occured in user.controller.register - ErroCode : 5 - message: 5 NOT_FOUND: Instance not found: projects/test-project/instances/omegatrade-instance 
+11:14:17.152 TRACE Error: 5 NOT_FOUND: Instance not found: projects/test-project/instances/omegatrade-instance
+    at Object.callErrorFromStatus (C:\Auk\omegatrade\backend\node_modules\@grpc\grpc-js\build\src\call.js:31:26)
+    at Object.onReceiveStatus (C:\Auk\omegatrade\backend\node_modules\@grpc\grpc-js\build\src\client.js:327:49)
+    at C:\Auk\omegatrade\backend\node_modules\@grpc\grpc-js\build\src\call-stream.js:65:35
+    at Object.onReceiveStatus (C:\Auk\omegatrade\backend\node_modules\grpc-gcp\build\src\index.js:73:29)
+    at InterceptingListenerImpl.onReceiveStatus (C:\Auk\omegatrade\backend\node_modules\@grpc\grpc-js\build\src\call-stream.js:60:23)
+    at Object.onReceiveStatus (C:\Auk\omegatrade\backend\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:299:181)
+    at C:\Auk\omegatrade\backend\node_modules\@grpc\grpc-js\build\src\call-stream.js:130:78
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
